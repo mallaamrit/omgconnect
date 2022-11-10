@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-between rounded overflow-hidden shadow-lg m-5">
         <div class="grid grid-cols-4 gap-8  ">
-            <div v-for="item in items" :key="item.title" class="m-5">
+            <div v-for="item in items" :key="item.title">
                 <img class="w-full" :src="item.img" alt="Sunset in the mountains">
 
                 <div class=" p-4">
@@ -12,7 +12,7 @@
                 </div>
 
                 <div class="p-7 shadow-lg">
-                    <a href=""><span class="text-md text-primary font-normal leading-4 float-right">{{ item.list }}</span></a>
+                    <a href=""><span class="text-xs text-primary font-normal leading-4 float-right">{{ item.list }}</span></a>
                 </div>
             </div>
             <div class="relative border h-52 w-52 text-secondary ">

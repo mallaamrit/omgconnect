@@ -13,11 +13,6 @@ import Finance from '../views/Finance.vue'
 
 
 
-
-
-
-
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
